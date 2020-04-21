@@ -7,9 +7,9 @@ import PropTypes from 'prop-types'
 // 引入hooks
 import useKeyPress from '../hooks/useKeyPress'
 import useIpcRenderer from '../hooks/useIpcRenderer'
-// import { FILESEARCH } from '../typescript/interface'
+
 interface FILESEARCH {
-  title: String,
+  title: string,
   onFileSearch: any
 }
 

@@ -8,8 +8,8 @@ import '../style/TabList.scss'
 
 interface TABLIST {
   files: any,
-  activeId: any,
-  unsaveIds: any,
+  activeId: number,
+  unsaveIds: [number | object],
   onTabClick: any,
   onCloseTab: any
 }

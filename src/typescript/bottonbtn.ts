@@ -1,13 +1,13 @@
 export interface bottomBtn {
-    text: any,
-    colorClass: any,
+    text: string,
+    colorClass: string,
     icon: any,
     onBtnClick: any
 }
 
 class BOTTOMBTN implements bottomBtn {
-    text: any
-    colorClass: any
+    text: string
+    colorClass: string
     icon: any
     onBtnClick: any
 }

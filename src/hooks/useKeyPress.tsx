@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const useKeyPress = (targetKeyCode:any) => {
+const useKeyPress = (targetKeyCode:number) => {
   const [keyPressed, setKeyPressed] = useState(false)
 
   const keyDownHandler = ({ keyCode }:any) => {

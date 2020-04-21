@@ -2,11 +2,11 @@ import { useEffect, useRef } from 'react'
 const { remote } = window.require('electron')
 const { Menu, MenuItem } = remote
 
-const useContextMenu = (itemArr:any, targetSelector:any, deps:any) => {
+const useContextMenu = (itemArr:[], targetSelector:any, deps:any) => {
   let clickedElement = useRef(null)
   useEffect(() => {
     const menu = new Menu()
-    itemArr.forEach((item:any) => {
+    itemArr.forEach((item:string) => {
       menu.append(new MenuItem(item))
     })
     const handleContextMenu = (e:any) => {

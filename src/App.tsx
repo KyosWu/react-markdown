@@ -40,7 +40,7 @@ function App() {
   // 激活的文件
   const activeFile = files[activeFileID]
   // 打开的文件
-  const openedFiles = openedFileIDs.map((openID:any) => {
+  const openedFiles = openedFileIDs.map((openID:number) => {
     return files[openID]
   })
   // 文件的列表
@@ -148,7 +148,7 @@ function App() {
         })
         // extend the path array to an array contains files info
         // [{id: '1', path: '', title: ''}, {}]
-        const importFilesArr = filteredPaths.map((path:any) => {
+        const importFilesArr = filteredPaths.map((path:string) => {
           return {
             id: uuidv4(),
             title: basename(path, extname(path)),
@@ -172,7 +172,7 @@ function App() {
     })
   }
   // 删除文件
-  const deleteFile = (id:any) => {
+  const deleteFile = (id:number) => {
     if (files[id].isNew) {
       const { [id]: value, ...afterDelete } = files
       setFiles(afterDelete)
@@ -187,7 +187,7 @@ function App() {
     }
   }
   // 更新文件名
-  const updateFileName = (id:any, title:any, isNew:any) => {
+  const updateFileName = (id:number, title:string, isNew:boolean) => {
     // newPath should be different based on isNew
     // if isNew is false, path should be old dirname + new title
     const newPath = isNew ? join(savedLocation, `${title}.md`)
@@ -208,7 +208,7 @@ function App() {
     }
   }
   // 判断文件是否发生变化
-  const fileChange = (id:any, value:any) => {
+  const fileChange = (id:number, value:any) => {
     if (value !== files[id].body) {
       const newFile = { ...files[id], body: value }
       setFiles({ ...files, [id]: newFile })
