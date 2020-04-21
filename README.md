@@ -10,6 +10,6 @@ npm install
 
 项目效果图
 
-![](https://github.com/KyosWu/react-markdown/blob/master/image/1.PNG)
-![](https://github.com/KyosWu/react-markdown/blob/master/image/2.PNG)
-![](https://github.com/KyosWu/react-markdown/blob/master/image/3.PNG)
+![Hello World](https://github.com/KyosWu/react-markdown/blob/master/image/1.PNG)
+![tab](https://github.com/KyosWu/react-markdown/blob/master/image/2.PNG)
+![upload qiniuyun](https://github.com/KyosWu/react-markdown/blob/master/image/3.PNG)
