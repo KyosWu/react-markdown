@@ -11,3 +11,5 @@ npm install
 项目效果图
 
 ![](https://github.com/KyosWu/react-markdown/blob/master/image/1.PNG)
+![](https://github.com/KyosWu/react-markdown/blob/master/image/2.PNG)
+![](https://github.com/KyosWu/react-markdown/blob/master/image/3.PNG)
