@@ -9,3 +9,5 @@ cd 文件目录
 npm install
 
 项目效果图
+
+![](https://github.com/KyosWu/react-markdown/blob/master/image/1.PNG)
