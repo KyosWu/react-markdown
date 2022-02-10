@@ -111,7 +111,7 @@
     "electron-is-dev": "^1.1.0",
     "electron-store": "^5.1.1",
     "fs-exists-sync": "^0.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "qiniu": "^7.3.0",
     "react-scripts": "^3.4.1",
